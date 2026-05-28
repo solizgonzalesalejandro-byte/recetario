@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="verde_eco">#55a630</color>
+    <string name="app_name">recetario</string>
+    <style name="Base.Theme.Recetario" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Recetario" parent="Base.Theme.Recetario"/>
+</resources>
