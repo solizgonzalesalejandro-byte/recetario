@@ -20,14 +20,14 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_map);
+        setContentView(R.layout.activity_map); // <-- Verifica que diga activity_map
 
         // Obtener el fragment del mapa
         SupportMapFragment mapFragment = (SupportMapFragment)
                 getSupportFragmentManager().findFragmentById(R.id.map);
 
         if (mapFragment != null) {
-            mapFragment.getMapAsync(this);   // Cuando el mapa esté listo, llama a onMapReady
+            mapFragment.getMapAsync(this);
         }
     }
 
