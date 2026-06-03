@@ -20,29 +20,13 @@
             android:textColor="#2D3436"
             android:layout_marginBottom="20dp"/>
 
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Nombre del lugar"
-            android:layout_marginBottom="16dp"
-            app:startIconDrawable="@android:drawable/ic_menu_mylocation"
-            app:startIconTint="#84B026"
-            app:boxStrokeColor="#84B026"
-            app:hintTextColor="#84B026">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/fNombre"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-        </com.google.android.material.textfield.TextInputLayout>
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Selecciona la Categoría:"
+            android:text="Selecciona el Tipo de Punto:"
             android:textSize="14sp"
-            android:layout_marginBottom="4dp"/>
+            android:layout_marginBottom="4dp"
+            android:textStyle="bold"/>
 
         <Spinner
             android:id="@+id/fSpinnerTipo"
@@ -55,25 +39,66 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Descripción (¿Qué reciben?)"
+            android:hint="Nombre del lugar"
+            android:layout_marginBottom="16dp"
+            app:startIconDrawable="@android:drawable/ic_menu_mylocation"
+            app:startIconTint="#84B026">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dirección obtenida del mapa"
+            android:layout_marginBottom="16dp"
+            app:startIconDrawable="@android:drawable/ic_dialog_map"
+            app:startIconTint="#84B026">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fDireccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:textColor="@android:color/darker_gray" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Horario de Atención"
+            android:layout_marginBottom="16dp"
+            app:startIconDrawable="@android:drawable/ic_menu_recent_history"
+            app:startIconTint="#84B026">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fHorario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripción"
             android:layout_marginBottom="16dp"
             app:startIconDrawable="@android:drawable/ic_menu_edit"
-            app:startIconTint="#84B026"
-            app:boxStrokeColor="#84B026">
-
+            app:startIconTint="#84B026">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/fDescripcion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="top|start"
-                android:lines="3" />
+                android:lines="2" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:baselineAligned="false">
+            android:layout_marginBottom="16dp">
 
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -96,15 +121,112 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="Enlace WA"
+                android:hint="WhatsApp"
                 app:startIconDrawable="@android:drawable/stat_notify_chat"
                 app:startIconTint="#84B026">
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/fWhatsApp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="textUri" />
+                    android:inputType="phone" />
             </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Redes Sociales / Páginas Web"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/btnAgregarRed"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+ Añadir"
+                android:textColor="#84B026"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/containerRedes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:id="@+id/layoutCamposReciclaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#F4F9F4"
+            android:padding="14dp"
+            android:layout_marginBottom="16dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="♻️ Datos de Reciclaje"
+                android:textStyle="bold"
+                android:textColor="#84B026"
+                android:layout_marginBottom="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Materiales Aceptados:"
+                    android:textStyle="bold"/>
+                <Button
+                    android:id="@+id/btnAgregarMaterial"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+ Agregar"
+                    android:textColor="#84B026"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/containerMateriales"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Esquema de Recompensas:"
+                    android:textStyle="bold"/>
+                <Button
+                    android:id="@+id/btnAgregarRecompensa"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+ Configurar"
+                    android:textColor="#84B026"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/containerRecompensas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
         </LinearLayout>
 
         <Button
@@ -114,20 +236,27 @@
             android:layout_height="wrap_content"
             android:text="Añadir Foto (Opcional)"
             android:textColor="#84B026"
-            android:layout_marginTop="8dp"
             app:icon="@android:drawable/ic_menu_camera"
             app:iconTint="#84B026"/>
+
+        <TextView
+            android:id="@+id/fTxtEstadoFoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="No se ha seleccionado ninguna foto"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp"
+            android:layout_marginBottom="12dp" />
 
         <Button
             android:id="@+id/fBtnGuardar"
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:text="GUARDAR PUNTO EN EL MAPA"
+            android:text="CONFIRMAR REGISTRO"
             android:textColor="@android:color/white"
             android:textStyle="bold"
             android:backgroundTint="#84B026"
-            android:layout_marginTop="20dp"
             app:cornerRadius="12dp"/>
-
     </LinearLayout>
 </ScrollView>

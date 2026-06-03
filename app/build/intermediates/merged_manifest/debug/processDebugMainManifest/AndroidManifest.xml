@@ -10,6 +10,14 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <uses-feature
         android:glEsVersion="0x00020000"
@@ -39,10 +47,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.Recetario" >
+        android:theme="@style/Theme.Recetario"
+        android:usesCleartextTraffic="true" >
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="" />
+            android:value="AIzaSyBv3lsCkgk1wT4Qeo5ADF7Mf08EhQZVIpY" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.recetario.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
 
         <activity
             android:name="com.example.recetario.splashScreem"
@@ -53,14 +72,34 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.recetario.Menu" />
-        <activity android:name="com.example.recetario.MapActivity" />
+        <activity
+            android:name="com.example.recetario.Menu"
+            android:exported="false" />
+        <activity
+            android:name="com.example.recetario.MapActivity"
+            android:exported="false" />
         <activity
             android:name="com.example.recetario.MainActivity"
-            android:exported="true" >
-        </activity>
-
-        <!-- Needs to be explicitly declared on P+ -->
+            android:exported="true" />
+        <activity
+            android:name="com.example.recetario.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.recetario.PerfilActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.recetario.RegistroActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.recetario.EncuestaPuntoActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+            android:exported="false"
+            android:label="@string/places_autocomplete_label"
+            android:theme="@style/PlacesAutocompleteOverlay"
+            android:windowSoftInputMode="adjustResize" >
+        </activity> <!-- Needs to be explicitly declared on P+ -->
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
@@ -108,6 +147,23 @@
                 <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
             </intent-filter>
         </receiver>
+
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
     </application>
 
 </manifest>

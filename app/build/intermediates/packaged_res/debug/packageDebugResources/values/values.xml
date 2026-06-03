@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="tipos_puntos_eco">
+            <item>Reciclaje</item>
+            <item>Esterilización</item>
+            <item>Punto de Aceite</item>
+        </string-array>
     <color name="verde_eco">#55a630</color>
     <string name="app_name">recetario</string>
     <style name="Base.Theme.Recetario" parent="Theme.Material3.DayNight.NoActionBar">
