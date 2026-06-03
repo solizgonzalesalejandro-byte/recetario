@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.recetario.app-mergeDebugResources-35:/values-et/values-et.xml",
+            "outputFile": "com.example.recetario.app-mergeDebugResources-36:/values-et/values-et.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Dell\\.gradle\\caches\\9.2.1\\transforms\\44de4a880dbaa38e008610236c5d4974\\workspace\\transformed\\places-3.5.0\\res\\values-et\\values.xml",

@@ -32,7 +32,7 @@ public class Usuario {
         private String correo;
         private String rol;
 
-        public String getId() { return id; }
+        public String getId() { return this.id; }
         public void setId(String id) { this.id = id; }
 
         public String getNombre() { return nombre; }

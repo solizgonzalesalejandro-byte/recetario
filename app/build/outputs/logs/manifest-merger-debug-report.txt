@@ -20,6 +20,7 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Dell\.gr
 MERGED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:2:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\2343f35da61d80d915dff116b658ee46\workspace\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ca1822a175b3df2bb46cf05e9cc25733\workspace\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:17:1-44:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\04d98a67c86443bb7c20db140448e752\workspace\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\49fe6ccf061fc867b61f5784a4795405\workspace\transformed\play-services-location-21.0.1\AndroidManifest.xml:2:1-9:12
@@ -122,6 +123,8 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Dell\.gr
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ea926c7773c6df18c4fa70f9931c23df\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:7:5-11:19
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\49fe6ccf061fc867b61f5784a4795405\workspace\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
@@ -254,6 +257,8 @@ MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Dell\.gradle
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\2343f35da61d80d915dff116b658ee46\workspace\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ca1822a175b3df2bb46cf05e9cc25733\workspace\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ca1822a175b3df2bb46cf05e9cc25733\workspace\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\04d98a67c86443bb7c20db140448e752\workspace\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -382,6 +387,14 @@ ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gra
 		ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:19:13-61
 	android:name
 		ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:16:13-91
+meta-data#com.google.android.gms.version
+ADDED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:10:13-66
+	android:name
+		ADDED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:9:13-58
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
@@ -408,12 +421,6 @@ ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\Dell\.gra
 		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:21:19-78
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:19-85
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9b584f18554ce9136e87e403accf7991\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20

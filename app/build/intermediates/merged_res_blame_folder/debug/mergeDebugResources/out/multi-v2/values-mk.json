@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.recetario.app-mergeDebugResources-35:/values-mk/values-mk.xml",
+            "outputFile": "com.example.recetario.app-mergeDebugResources-36:/values-mk/values-mk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Dell\\.gradle\\caches\\9.2.1\\transforms\\a4485f4563b8ad90d04f6a4e80b36206\\workspace\\transformed\\play-services-basement-18.3.0\\res\\values-mk\\values.xml",

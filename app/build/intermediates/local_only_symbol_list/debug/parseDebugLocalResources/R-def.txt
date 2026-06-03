@@ -2,9 +2,11 @@ R_DEF: Internal format may change without notice
 local
 array tipos_puntos_eco
 color verde_eco
+drawable background_buscador_propio
 drawable cochaeco
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id autoCompleteMisPuntos
 id autocomplete_fragment
 id btnAgregarMaterial
 id btnAgregarRecompensa
@@ -32,10 +34,12 @@ id cardEsterilizacion
 id cardNuevoPunto
 id cardReciclaje
 id containerFavoritos
+id containerImagenesPunto
 id containerMateriales
 id containerMisPuntos
 id containerRecompensas
 id containerRedes
+id containerRedesSociales
 id containerResenas
 id drawer_layout
 id editBtnEliminar
@@ -73,6 +77,7 @@ id layoutDetalleDescripcion
 id layoutDetalleHorario
 id layoutDetalleImagen
 id layoutDetalleMateriales
+id layoutDetalleRedes
 id layoutDetalleTelefono
 id layoutDetalleWhatsapp
 id layoutEmail
@@ -89,6 +94,7 @@ id profileName
 id rbAzul
 id rbNaranja
 id rbVerde
+id scrollDetalleImagenes
 id scrollFiltros
 id sheetDetallePunto
 id txtCantPuntos
@@ -127,6 +133,7 @@ mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 style Base.Theme.Recetario
+style EstiloTextoEtiqueta
 style Theme.Recetario
 xml backup_rules
 xml data_extraction_rules

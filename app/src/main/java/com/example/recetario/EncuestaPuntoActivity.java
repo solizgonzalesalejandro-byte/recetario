@@ -373,6 +373,24 @@ public class EncuestaPuntoActivity extends AppCompatActivity {
     // --- FIN DE LA SECCIÓN MULTIMEDIA ---
 
     private void procesarRegistroPunto() {
+        // 1. VALIDACIÓN DE SESIÓN (Crucial)
+        // Recuperamos el ID actualizado (debe ser null si no hay sesión)
+        recuperarDatosSesion();
+
+        if (usuarioIdLogueado == null || usuarioIdLogueado.equals("ID_ANONIMO")) {
+            new androidx.appcompat.app.AlertDialog.Builder(this)
+                    .setTitle("Acción restringida")
+                    .setMessage("Para registrar un punto ecológico, primero debes iniciar sesión.")
+                    .setPositiveButton("Iniciar sesión", (dialog, which) -> {
+                        Intent intent = new Intent(EncuestaPuntoActivity.this, LoginActivity.class);
+                        startActivity(intent);
+                    })
+                    .setNegativeButton("Cancelar", null)
+                    .show();
+            return; // Detenemos la ejecución aquí si no hay sesión
+        }
+
+        // 2. Validación de campos básicos
         String nombre = etNombre.getText().toString().trim();
         String tipo = spinnerTipo.getSelectedItem().toString();
         String direccion = etDireccion.getText().toString().trim();
@@ -385,25 +403,27 @@ public class EncuestaPuntoActivity extends AppCompatActivity {
 
         btnGuardar.setEnabled(false);
 
+        // 3. Preparación del DTO
         Punto.PuntoRequestDto nuevoPunto = new Punto.PuntoRequestDto();
         nuevoPunto.setNombre(nombre);
         nuevoPunto.setTipo(tipo);
-        nuevoPunto.setDireccion(direccion.isEmpty() ? "Coordenadas: " + latitud + ", " + longitud : direccion);
-        nuevoPunto.setDescripcion(etDescripcion.getText().toString().trim().isEmpty() ? null : etDescripcion.getText().toString().trim());
+        nuevoPunto.setDireccion(direccion.isEmpty() ? "Cochabamba, Bolivia" : direccion);
         nuevoPunto.setLat(latitud);
         nuevoPunto.setLng(longitud);
-        nuevoPunto.setTelefono(etTelefono.getText().toString().trim().isEmpty() ? null : etTelefono.getText().toString().trim());
-        nuevoPunto.setWhatsapp(etWhatsApp.getText().toString().trim().isEmpty() ? null : etWhatsApp.getText().toString().trim());
-        nuevoPunto.setHorario(etHorario.getText().toString().trim().isEmpty() ? null : etHorario.getText().toString().trim());
+        nuevoPunto.setDescripcion(etDescripcion.getText().toString().trim());
+        nuevoPunto.setTelefono(etTelefono.getText().toString().trim());
+        nuevoPunto.setWhatsapp(etWhatsApp.getText().toString().trim());
+        nuevoPunto.setHorario(etHorario.getText().toString().trim());
+
+        // Asignación explícita del ID validado
+        nuevoPunto.setUsuarioId(usuarioIdLogueado);
 
         nuevoPunto.setRedes(listaRedes.isEmpty() ? null : listaRedes);
         nuevoPunto.setMateriales(tipo.equals("Reciclaje") && !listaMateriales.isEmpty() ? listaMateriales : null);
         nuevoPunto.setRecompensas(tipo.equals("Reciclaje") && !listaRecompensas.isEmpty() ? listaRecompensas : null);
-        nuevoPunto.setUsuarioId(usuarioIdLogueado.equals("ID_ANONIMO") ? null : usuarioIdLogueado);
-
-        // 🌟 CAMBIO: Asignar directamente la lista completa de imágenes recopiladas al DTO
         nuevoPunto.setImagenes(listaImagenesBase64.isEmpty() ? null : listaImagenesBase64);
 
+        // 4. Llamada a la API
         PuntoApiService apiService = RetrofitClient.getPuntoApiService();
         Call<Punto.PuntoResponseDto> call = apiService.crearPunto(nuevoPunto);
 
@@ -412,24 +432,27 @@ public class EncuestaPuntoActivity extends AppCompatActivity {
             public void onResponse(@NonNull Call<Punto.PuntoResponseDto> call, @NonNull Response<Punto.PuntoResponseDto> response) {
                 btnGuardar.setEnabled(true);
                 if (response.isSuccessful() && response.body() != null) {
-                    Toast.makeText(EncuestaPuntoActivity.this, "🌱 ¡Punto ecológico guardado con éxito!", Toast.LENGTH_LONG).show();
+                    // Aquí el servidor debería devolver el punto con su nuevo ID
+                    Toast.makeText(EncuestaPuntoActivity.this, "🌱 ¡Punto guardado exitosamente!", Toast.LENGTH_LONG).show();
                     finish();
                 } else {
-                    Toast.makeText(EncuestaPuntoActivity.this, "Error de validación del servidor", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(EncuestaPuntoActivity.this, "Error: " + response.code(), Toast.LENGTH_SHORT).show();
                 }
             }
 
             @Override
             public void onFailure(@NonNull Call<Punto.PuntoResponseDto> call, @NonNull Throwable t) {
                 btnGuardar.setEnabled(true);
-                Toast.makeText(EncuestaPuntoActivity.this, "Error de conexión de red", Toast.LENGTH_SHORT).show();
+                Toast.makeText(EncuestaPuntoActivity.this, "Fallo de conexión: " + t.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
     }
 
+    // Asegúrate de que este método sea así de limpio:
     private void recuperarDatosSesion() {
         SharedPreferences sharedPreferences = getSharedPreferences("CochaEcoPrefs", Context.MODE_PRIVATE);
-        usuarioIdLogueado = sharedPreferences.getString("usuarioId", "ID_ANONIMO");
+        // Cambiamos el valor por defecto a null para que la validación if(...) funcione
+        usuarioIdLogueado = sharedPreferences.getString("usuarioId", null);
     }
 
     private void recuperarDatosMapa() {

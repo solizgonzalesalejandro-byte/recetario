@@ -183,29 +183,29 @@
 100-->[com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:19:13-61
 101            android:windowSoftInputMode="adjustResize" >
 101-->[com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:20:13-55
-102        </activity> <!-- Needs to be explicitly declared on P+ -->
-103        <uses-library
-103-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
-104            android:name="org.apache.http.legacy"
-104-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
-105            android:required="false" />
-105-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
-106
-107        <activity
-107-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
-108            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-108-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:19-85
-109            android:exported="false"
-109-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:22:19-43
-110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-110-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:21:19-78
-111
-112        <meta-data
-112-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
-113            android:name="com.google.android.gms.version"
-113-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
-114            android:value="@integer/google_play_services_version" />
-114-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+102        </activity>
+103
+104        <meta-data
+104-->[com.google.maps.android:android-maps-utils:3.8.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:8:9-10:69
+105            android:name="com.google.android.gms.version"
+105-->[com.google.maps.android:android-maps-utils:3.8.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:9:13-58
+106            android:value="@integer/google_play_services_version" /> <!-- Needs to be explicitly declared on P+ -->
+106-->[com.google.maps.android:android-maps-utils:3.8.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:10:13-66
+107        <uses-library
+107-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+108            android:name="org.apache.http.legacy"
+108-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+109            android:required="false" />
+109-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+110
+111        <activity
+111-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+112            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+112-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:21:19-78
 115
 116        <provider
 116-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20

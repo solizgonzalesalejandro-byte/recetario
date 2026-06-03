@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.recetario.app-mergeDebugResources-35:/values-large-v4/values-large-v4.xml",
+            "outputFile": "com.example.recetario.app-mergeDebugResources-36:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Dell\\.gradle\\caches\\9.2.1\\transforms\\b1438fb81df53b9e8402a30360a96e80\\workspace\\transformed\\material-1.10.0\\res\\values-large-v4\\values-large-v4.xml",

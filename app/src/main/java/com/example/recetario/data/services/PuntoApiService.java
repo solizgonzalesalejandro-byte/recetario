@@ -15,4 +15,6 @@ public interface PuntoApiService {
     // 🌟 NUEVO: Llama al endpoint de filtrado del backend
     @GET("api/puntos/tipo/{tipo}")
     Call<List<Punto.PuntoResponseDto>> buscarPorTipo(@Path("tipo") String tipo);
+    @GET("api/puntos/usuario/{usuarioId}")
+    Call<List<Punto.PuntoResponseDto>> buscaPuntosUser(@Path("usuarioId") String tipo);
 }

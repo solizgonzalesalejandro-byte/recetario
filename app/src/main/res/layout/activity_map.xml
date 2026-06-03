@@ -51,7 +51,6 @@
             app:strokeWidth="2dp"
             app:strokeColor="#84B026"
             app:cardBackgroundColor="#FFFFFF"
-            android:visibility="visible"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent">
 
@@ -73,10 +72,23 @@
                     android:layout_height="match_parent"
                     android:src="@android:drawable/ic_menu_report_image"
                     android:padding="12dp"
-                    app:tint="#84B026"
-                    android:visibility="visible" />
+                    app:tint="#84B026" />
             </FrameLayout>
         </com.google.android.material.card.MaterialCardView>
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteMisPuntos"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/background_buscador_propio"
+            android:hint="🔍 Buscar mis puntos ecológicos..."
+            android:paddingStart="16dp"
+            android:completionThreshold="1"
+            app:layout_constraintTop_toBottomOf="@id/cardBuscador"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
 
         <HorizontalScrollView
             android:id="@+id/scrollFiltros"
@@ -87,75 +99,23 @@
             android:paddingStart="16dp"
             android:paddingEnd="16dp"
             android:clipToPadding="false"
-            app:layout_constraintTop_toBottomOf="@id/cardBuscador"
+            app:layout_constraintTop_toBottomOf="@id/autoCompleteMisPuntos"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center_vertical">
+                android:orientation="horizontal">
 
-                <Button
-                    android:id="@+id/btnFiltroTodos"
-                    style="@style/Widget.MaterialComponents.Button.TextButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="38dp"
-                    android:layout_marginEnd="8dp"
-                    android:text="🌍 Todos"
-                    android:textSize="13sp"
-                    android:textColor="#FFFFFF"
-                    android:textStyle="bold"
-                    android:backgroundTint="#84B026"
-                    app:cornerRadius="18dp"
-                    android:insetTop="0dp"
-                    android:insetBottom="0dp" />
-
-                <Button
-                    android:id="@+id/btnFiltroReciclaje"
-                    style="@style/Widget.MaterialComponents.Button.TextButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="38dp"
-                    android:layout_marginEnd="8dp"
-                    android:text="♻️ Reciclaje"
-                    android:textSize="13sp"
-                    android:textColor="#84B026"
-                    android:backgroundTint="#E8F5E9"
-                    app:cornerRadius="18dp"
-                    android:insetTop="0dp"
-                    android:insetBottom="0dp" />
-
-                <Button
-                    android:id="@+id/btnFiltroEsterilizacion"
-                    style="@style/Widget.MaterialComponents.Button.TextButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="38dp"
-                    android:layout_marginEnd="8dp"
-                    android:text="🐶 Esterilización"
-                    android:textSize="13sp"
-                    android:textColor="#84B026"
-                    android:backgroundTint="#E8F5E9"
-                    app:cornerRadius="18dp"
-                    android:insetTop="0dp"
-                    android:insetBottom="0dp" />
-
-                <Button
-                    android:id="@+id/btnFiltroAceite"
-                    style="@style/Widget.MaterialComponents.Button.TextButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="38dp"
-                    android:text="🛢️ Punto de Aceite"
-                    android:textSize="13sp"
-                    android:textColor="#84B026"
-                    android:backgroundTint="#E8F5E9"
-                    app:cornerRadius="18dp"
-                    android:insetTop="0dp"
-                    android:insetBottom="0dp" />
+                <Button android:id="@+id/btnFiltroTodos" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="38dp" android:layout_marginEnd="8dp" android:text="🌍 Todos" android:textColor="#FFFFFF" android:backgroundTint="#84B026" app:cornerRadius="18dp" />
+                <Button android:id="@+id/btnFiltroReciclaje" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="38dp" android:layout_marginEnd="8dp" android:text="♻️ Reciclaje" android:textColor="#84B026" android:backgroundTint="#E8F5E9" app:cornerRadius="18dp" />
+                <Button android:id="@+id/btnFiltroEsterilizacion" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="38dp" android:layout_marginEnd="8dp" android:text="🐶 Esterilización" android:textColor="#84B026" android:backgroundTint="#E8F5E9" app:cornerRadius="18dp" />
+                <Button android:id="@+id/btnFiltroAceite" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="38dp" android:text="🛢️ Punto de Aceite" android:textColor="#84B026" android:backgroundTint="#E8F5E9" app:cornerRadius="18dp" />
             </LinearLayout>
         </HorizontalScrollView>
-    </androidx.constraintlayout.widget.ConstraintLayout>
 
+    </androidx.constraintlayout.widget.ConstraintLayout>
     <androidx.cardview.widget.CardView
         android:id="@+id/sheetDetallePunto"
         android:layout_width="match_parent"
@@ -169,7 +129,7 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:maxHeight="500dp"
+            android:maxHeight="520dp"
             android:padding="20dp"
             android:background="#FFFFFF">
 
@@ -185,22 +145,19 @@
                     android:layout_marginBottom="16dp"
                     android:background="#D1D1D6" />
 
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/layoutDetalleImagen"
+                <HorizontalScrollView
+                    android:id="@+id/scrollDetalleImagenes"
                     android:layout_width="match_parent"
-                    android:layout_height="180dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginBottom="14dp"
-                    app:cardCornerRadius="14dp"
-                    app:cardElevation="0dp"
-                    app:strokeWidth="0dp"
+                    android:scrollbars="none"
                     android:visibility="gone">
-                    <ImageView
-                        android:id="@+id/imgDetallePunto"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:scaleType="centerCrop"
-                        android:contentDescription="Imagen del punto ecológico" />
-                </com.google.android.material.card.MaterialCardView>
+                    <LinearLayout
+                        android:id="@+id/containerImagenesPunto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="180dp"
+                        android:orientation="horizontal" />
+                </HorizontalScrollView>
 
                 <TextView
                     android:id="@+id/txtDetalleNombre"
@@ -340,6 +297,28 @@
                         android:text="Materiales"
                         android:textColor="#666666"
                         android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutDetalleRedes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="14dp"
+                    android:visibility="gone">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="🌐 Redes Sociales y Enlaces:"
+                        android:textStyle="bold"
+                        android:textColor="#333333"
+                        android:textSize="14sp"/>
+                    <LinearLayout
+                        android:id="@+id/containerRedesSociales"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="4dp" />
                 </LinearLayout>
 
                 <Button

@@ -1,5 +1,6 @@
 package com.example.recetario;
 
+import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
 public class Punto {
@@ -52,17 +53,18 @@ public class Punto {
         public void setRedes(List<RedDto> redes) { this.redes = redes; }
     }
 
-    // 2. DTO que el Servidor responde tras guardar con éxito
+    // 2. DTO que el Servidor responde (PuntoResponseDto)
     public static class PuntoResponseDto {
+
+        @SerializedName("id") // Asegura el mapeo correcto del ID
         private String id;
+
         private String nombre;
         private String tipo;
         private String descripcion;
         private String direccion;
-
         private Double lat;
         private Double lng;
-
         private String horario;
         private String telefono;
         private String whatsapp;
@@ -72,7 +74,15 @@ public class Punto {
         private List<String> imagenes;
         private List<RedDto> redes;
 
+        // --- GETTERS Y SETTERS ---
+
+        // ¡IMPORTANTE!: Este setter permite que Retrofit/Gson asigne el ID
+        public String getId() { return id; }
+        public void setId(String id) { this.id = id; }
+
         public String getNombre() { return nombre; }
+        public void setNombre(String nombre) { this.nombre = nombre; }
+
         public String getTipo() { return tipo; }
         public String getDescripcion() { return descripcion; }
         public String getDireccion() { return direccion; }

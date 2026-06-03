@@ -1,8 +1,10 @@
 int array tipos_puntos_eco 0x0
 int color verde_eco 0x0
+int drawable background_buscador_propio 0x0
 int drawable cochaeco 0x0
 int drawable ic_launcher_background 0x0
 int drawable ic_launcher_foreground 0x0
+int id autoCompleteMisPuntos 0x0
 int id autocomplete_fragment 0x0
 int id btnAgregarMaterial 0x0
 int id btnAgregarRecompensa 0x0
@@ -30,10 +32,12 @@ int id cardEsterilizacion 0x0
 int id cardNuevoPunto 0x0
 int id cardReciclaje 0x0
 int id containerFavoritos 0x0
+int id containerImagenesPunto 0x0
 int id containerMateriales 0x0
 int id containerMisPuntos 0x0
 int id containerRecompensas 0x0
 int id containerRedes 0x0
+int id containerRedesSociales 0x0
 int id containerResenas 0x0
 int id drawer_layout 0x0
 int id editBtnEliminar 0x0
@@ -71,6 +75,7 @@ int id layoutDetalleDescripcion 0x0
 int id layoutDetalleHorario 0x0
 int id layoutDetalleImagen 0x0
 int id layoutDetalleMateriales 0x0
+int id layoutDetalleRedes 0x0
 int id layoutDetalleTelefono 0x0
 int id layoutDetalleWhatsapp 0x0
 int id layoutEmail 0x0
@@ -87,6 +92,7 @@ int id profileName 0x0
 int id rbAzul 0x0
 int id rbNaranja 0x0
 int id rbVerde 0x0
+int id scrollDetalleImagenes 0x0
 int id scrollFiltros 0x0
 int id sheetDetallePunto 0x0
 int id txtCantPuntos 0x0
@@ -125,6 +131,7 @@ int mipmap ic_launcher_foreground 0x0
 int mipmap ic_launcher_round 0x0
 int string app_name 0x0
 int style Base_Theme_Recetario 0x0
+int style EstiloTextoEtiqueta 0x0
 int style Theme_Recetario 0x0
 int xml backup_rules 0x0
 int xml data_extraction_rules 0x0
