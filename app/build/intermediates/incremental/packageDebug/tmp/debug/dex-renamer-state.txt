@@ -1,8 +1,8 @@
-#Wed Jun 03 09:05:44 BOT 2026
-base.0=C\:\\Users\\Dell\\AndroidStudioProjects\\recetario\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\Dell\\AndroidStudioProjects\\recetario\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\Dell\\AndroidStudioProjects\\recetario\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
-base.3=C\:\\Users\\Dell\\AndroidStudioProjects\\recetario\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Wed Jun 03 16:04:16 BOT 2026
+base.0=C\:\\Users\\LENOVO IDEAPAD 3\\Desktop\\movil\\recetario\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\LENOVO IDEAPAD 3\\Desktop\\movil\\recetario\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\LENOVO IDEAPAD 3\\Desktop\\movil\\recetario\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+base.3=C\:\\Users\\LENOVO IDEAPAD 3\\Desktop\\movil\\recetario\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=2/classes.dex

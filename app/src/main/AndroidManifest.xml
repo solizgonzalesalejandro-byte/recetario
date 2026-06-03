@@ -50,5 +50,10 @@
         <activity android:name=".PerfilActivity" android:exported="false"/>
         <activity android:name=".RegistroActivity" android:exported="false"/>
         <activity android:name=".EncuestaPuntoActivity" android:exported="false" />
+        <activity android:name=".DetallePuntoPropioActivity" android:exported="false" />
+        <activity android:name=".EditarPuntoLimpioActivity" android:exported="false" />
+        <activity
+            android:name=".ResenasPuntoActivity"
+            android:exported="false" />
     </application>
 </manifest>

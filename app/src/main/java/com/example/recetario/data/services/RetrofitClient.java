@@ -26,4 +26,10 @@ public class RetrofitClient {
     public static PuntoApiService getPuntoApiService() {
         return getClient().create(PuntoApiService.class);
     }
+
+    // Añade esto dentro de tu clase RetrofitClient existente
+    public static ResenasApiService getResenasApiService() {
+        return getClient().create(ResenasApiService.class);
+    }
+
 }

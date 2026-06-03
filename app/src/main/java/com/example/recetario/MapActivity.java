@@ -41,8 +41,6 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.maps.android.ui.IconGenerator;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
-import com.google.maps.android.ui.IconGenerator;
 import com.google.android.libraries.places.api.Places;
 import com.google.android.libraries.places.api.model.Place;
 import com.google.android.libraries.places.widget.AutocompleteSupportFragment;
@@ -71,12 +69,20 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
     private SharedPreferences sharedPreferences;
     private boolean isLoggedIn = false;
 
-    // Arriba en tu clase
+    // Control de Modo Selección para Editar Formulario
+    private boolean esModoSeleccion = false;
+
     private BottomSheetBehavior<View> bottomSheetBehavior;
     private TextView txtDetalleNombre, txtDetalleTipo, txtDetalleDireccion, txtDetalleDescripcion, txtDetalleHorario, txtDetalleTelefono, txtDetalleMateriales;
     private View layoutDetalleDescripcion, layoutDetalleHorario, layoutDetalleTelefono, layoutDetalleWhatsapp, layoutDetalleMateriales, layoutDetalleRedes, scrollDetalleImagenes;
     private LinearLayout containerImagenesPunto, containerRedesSociales;
     private Button btnCerrarDetalle;
+
+    // 🌟 VARIABLES GLOBALES PARA CONTROLAR RESEÑAS
+    private Punto.PuntoResponseDto puntoSeleccionadoActual;
+    private TextView txtResumenCalificacion;
+    private TextView txtEscribirResenaLink;
+    private View layoutDetalleResenas;
 
     private List<Punto.PuntoResponseDto> listaPuntosTotales = new java.util.ArrayList<>();
     private AutoCompleteTextView buscadorMisPuntos;
@@ -87,6 +93,9 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         super.onCreate(savedInstanceState);
         try {
             setContentView(R.layout.activity_map);
+
+            // 🗺️ DETECTAR SI LLEGA DESDE EL FORMULARIO DE EDICIÓN
+            esModoSeleccion = getIntent().getBooleanExtra("modo_seleccion", false);
 
             cardBurbujaUsuarioMapa = findViewById(R.id.cardBurbujaUsuarioMapa);
             txtInicialUsuarioMapa = findViewById(R.id.txtInicialUsuarioMapa);
@@ -119,34 +128,42 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             inicializarComponentesBottomSheet();
             configurarBuscadorDeLugares();
             setupPerfilListener();
-
             inicializarBuscadorLocal();
+
+            // Deshabilitar elementos visuales molestos si solo venimos a seleccionar un punto
+            if (esModoSeleccion) {
+                if (cardBurbujaUsuarioMapa != null) cardBurbujaUsuarioMapa.setVisibility(View.GONE);
+                Toast.makeText(this, "📍 Mantén presionado el mapa y pulsa el recuadro informativo para elegir la ubicación", Toast.LENGTH_LONG).show();
+            }
         } catch (Exception e) {
             Log.e(TAG, "Error fatal en onCreate: ", e);
             Toast.makeText(this, "Error al iniciar mapas", Toast.LENGTH_LONG).show();
         }
     }
-        private void inicializarBuscadorLocal() {
-            buscadorMisPuntos = findViewById(R.id.autoCompleteMisPuntos);
-            // Inicializamos con lista vacía
-            adapterBuscador = new ArrayAdapter<>(this, android.R.layout.simple_dropdown_item_1line, new java.util.ArrayList<>());
-            buscadorMisPuntos.setAdapter(adapterBuscador);
 
-            buscadorMisPuntos.setOnItemClickListener((parent, view, position, id) -> {
-                String nombreSeleccionado = (String) parent.getItemAtPosition(position);
-                for (Punto.PuntoResponseDto p : listaPuntosTotales) {
-                    if (p.getNombre().equals(nombreSeleccionado)) {
-                        LatLng pos = new LatLng(p.getLat(), p.getLng());
-                        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(pos, 16f));
+    private void inicializarBuscadorLocal() {
+        buscadorMisPuntos = findViewById(R.id.autoCompleteMisPuntos);
+        adapterBuscador = new ArrayAdapter<>(this, android.R.layout.simple_dropdown_item_1line, new java.util.ArrayList<>());
+        buscadorMisPuntos.setAdapter(adapterBuscador);
+
+        buscadorMisPuntos.setOnItemClickListener((parent, view, position, id) -> {
+            String nombreSeleccionado = (String) parent.getItemAtPosition(position);
+            for (Punto.PuntoResponseDto p : listaPuntosTotales) {
+                if (p.getNombre().equals(nombreSeleccionado)) {
+                    LatLng pos = new LatLng(p.getLat(), p.getLng());
+                    mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(pos, 16f));
+                    if (!esModoSeleccion) {
                         mostrarDetallesPunto(p);
-                        // Ocultar teclado
-                        android.view.inputmethod.InputMethodManager imm = (android.view.inputmethod.InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-                        imm.hideSoftInputFromWindow(buscadorMisPuntos.getWindowToken(), 0);
-                        break;
                     }
+                    android.view.inputmethod.InputMethodManager imm = (android.view.inputmethod.InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                    if (imm != null && buscadorMisPuntos != null) {
+                        imm.hideSoftInputFromWindow(buscadorMisPuntos.getWindowToken(), 0);
+                    }
+                    break;
                 }
-            });
-        }
+            }
+        });
+    }
 
     private void inicializarComponentesBottomSheet() {
         try {
@@ -175,6 +192,21 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             layoutDetalleMateriales = findViewById(R.id.layoutDetalleMateriales);
             layoutDetalleRedes = findViewById(R.id.layoutDetalleRedes);
 
+            // 🌟 VINCULACIÓN DE VISTAS DE RESEÑAS
+            layoutDetalleResenas = findViewById(R.id.layoutDetalleResenas);
+            txtResumenCalificacion = findViewById(R.id.txtResumenCalificacion);
+            txtEscribirResenaLink = findViewById(R.id.txtEscribirResenaLink);
+
+            // Click en todo el contenedor o en "Ver Todas" -> Abre la lista completa
+            if (layoutDetalleResenas != null) {
+                layoutDetalleResenas.setOnClickListener(v -> abrirPantallaResenas());
+            }
+
+            // Click exclusivo en "✍️ Evaluar" para registrar reseña
+            if (txtEscribirResenaLink != null) {
+                txtEscribirResenaLink.setOnClickListener(v -> abrirPantallaResenas());
+            }
+
             btnCerrarDetalle = findViewById(R.id.btnCerrarDetalle);
             if (btnCerrarDetalle != null) {
                 btnCerrarDetalle.setOnClickListener(v -> bottomSheetBehavior.setState(BottomSheetBehavior.STATE_HIDDEN));
@@ -184,10 +216,24 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         }
     }
 
+    // 🌟 MÉTODO AUXILIAR PARA HACER EL INTENT HACIA TU RESENASPUNTOACTIVITY
+    private void abrirPantallaResenas() {
+        if (puntoSeleccionadoActual != null && puntoSeleccionadoActual.getId() != null) {
+            Intent intent = new Intent(MapActivity.this, ResenasPuntoActivity.class);
+            intent.putExtra("PUNTO_ID", puntoSeleccionadoActual.getId());
+            intent.putExtra("PUNTO_NOMBRE", puntoSeleccionadoActual.getNombre());
+            startActivity(intent);
+        } else {
+            Toast.makeText(MapActivity.this, "El punto no tiene un identificador válido.", Toast.LENGTH_SHORT).show();
+        }
+    }
+
     @Override
     protected void onResume() {
         super.onResume();
-        evaluarEstadoSesionBurbuja();
+        if (!esModoSeleccion) {
+            evaluarEstadoSesionBurbuja();
+        }
     }
 
     private void evaluarEstadoSesionBurbuja() {
@@ -242,7 +288,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                         marcadorTemporal = mMap.addMarker(new MarkerOptions()
                                 .position(ubicacionSeleccionada)
                                 .title("📍 " + place.getName())
-                                .snippet("Tocame aquí para Agregar Punto"));
+                                .snippet(esModoSeleccion ? "Pulsar aquí para confirmar ubicación" : "Tocame aquí para Agregar Punto"));
 
                         if (marcadorTemporal != null) {
                             marcadorTemporal.showInfoWindow();
@@ -271,7 +317,20 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         btnFiltroAceite = findViewById(R.id.btnFiltroAceite);
 
         mMap.getUiSettings().setZoomControlsEnabled(true);
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(COCHABAMBA, 13f));
+
+        // Centrar mapa si el formulario nos provee coordenadas anteriores de edición
+        double latPrevia = getIntent().getDoubleExtra("LAT_ACTUAL", 0.0);
+        double lngPrevia = getIntent().getDoubleExtra("LNG_ACTUAL", 0.0);
+        if (latPrevia != 0.0 && lngPrevia != 0.0) {
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(latPrevia, lngPrevia), 16f));
+            marcadorTemporal = mMap.addMarker(new MarkerOptions()
+                    .position(new LatLng(latPrevia, lngPrevia))
+                    .title("Ubicación Actual")
+                    .snippet(esModoSeleccion ? "Pulsar aquí para confirmar esta misma" : ""));
+            if (marcadorTemporal != null) marcadorTemporal.showInfoWindow();
+        } else {
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(COCHABAMBA, 13f));
+        }
 
         runOnUiThread(() -> {
             String category = getIntent().getStringExtra("categoria");
@@ -293,22 +352,38 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             manejarSeleccionMapa(latLng);
         });
 
+        // 🚀 INTERCEPTOR CRÍTICO: Al hacer click al InfoWindow del marcador
         mMap.setOnInfoWindowClickListener(marker -> {
-            if (marcadorTemporal != null && marker.getId().equals(marcadorTemporal.getId())) {
-                if (isLoggedIn) {
-                    Intent intentFormulario = new Intent(MapActivity.this, EncuestaPuntoActivity.class);
-                    intentFormulario.putExtra("latitud", marker.getPosition().latitude);
-                    intentFormulario.putExtra("longitud", marker.getPosition().longitude);
-                    intentFormulario.putExtra("direccion", marker.getTitle());
-                    startActivity(intentFormulario);
-                } else {
-                    Toast.makeText(MapActivity.this, "¡Debes iniciar sesión para registrar un punto!", Toast.LENGTH_LONG).show();
-                    startActivity(new Intent(MapActivity.this, PerfilActivity.class));
+            if (esModoSeleccion) {
+                // 1. Devolver datos de ubicación y dirección al FormularioEditarPuntoActivity
+                Intent returnIntent = new Intent();
+                returnIntent.putExtra("LATITUD_SELECCIONADA", marker.getPosition().latitude);
+                returnIntent.putExtra("LONGITUD_SELECCIONADA", marker.getPosition().longitude);
+                returnIntent.putExtra("DIRECCION_SELECCIONADA", marker.getTitle().replace("📍 ", ""));
+                setResult(RESULT_OK, returnIntent);
+                finish(); // Finaliza y regresa al formulario
+            } else {
+                // Flujo estándar antiguo para registrar un punto nuevo
+                if (marcadorTemporal != null && marker.getId().equals(marcadorTemporal.getId())) {
+                    if (isLoggedIn) {
+                        Intent intentFormulario = new Intent(MapActivity.this, EncuestaPuntoActivity.class);
+                        intentFormulario.putExtra("latitud", marker.getPosition().latitude);
+                        intentFormulario.putExtra("longitud", marker.getPosition().longitude);
+                        intentFormulario.putExtra("direccion", marker.getTitle());
+                        startActivity(intentFormulario);
+                    } else {
+                        Toast.makeText(MapActivity.this, "¡Debes iniciar sesión para registrar un punto!", Toast.LENGTH_LONG).show();
+                        startActivity(new Intent(MapActivity.this, PerfilActivity.class));
+                    }
                 }
             }
         });
 
         mMap.setOnMarkerClickListener(marker -> {
+            if (esModoSeleccion) {
+                marker.showInfoWindow();
+                return true;
+            }
             if (marker.getTag() instanceof Punto.PuntoResponseDto) {
                 Punto.PuntoResponseDto puntoData = (Punto.PuntoResponseDto) marker.getTag();
                 mostrarDetallesPunto(puntoData);
@@ -327,11 +402,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                 bottomSheetBehavior.setState(BottomSheetBehavior.STATE_HIDDEN);
             }
         });
-
-        boolean modoRegistro = getIntent().getBooleanExtra("modo_registro", false);
-        if (modoRegistro) {
-            Toast.makeText(this, "📍 Mantén presionado el mapa para marcar el nuevo punto ecológico", Toast.LENGTH_LONG).show();
-        }
     }
 
     private void manejarSeleccionMapa(LatLng latLng) {
@@ -353,7 +423,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         marcadorTemporal = mMap.addMarker(new MarkerOptions()
                 .position(latLng)
                 .title(direccionObtenida)
-                .snippet("Pulsar aquí para registrar punto"));
+                .snippet(esModoSeleccion ? "Pulsar aquí para confirmar ubicación" : "Pulsar aquí para registrar punto"));
 
         if (marcadorTemporal != null) {
             marcadorTemporal.showInfoWindow();
@@ -394,16 +464,55 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         }
     }
 
-    // 🌟 MÉTODOS REESTRUCTURADOS CON CARRUSEL DE IMÁGENES, ZOOM Y ENLACES DE REDES
     private void mostrarDetallesPunto(Punto.PuntoResponseDto punto) {
         if (punto == null || bottomSheetBehavior == null) return;
 
-        // 1. Datos básicos
         txtDetalleNombre.setText(punto.getNombre());
         txtDetalleTipo.setText(punto.getTipo());
         txtDetalleDireccion.setText(punto.getDireccion());
 
-        // 2. Carrusel de Imágenes
+        // Almacenamos el objeto seleccionado globalmente
+        this.puntoSeleccionadoActual = punto;
+
+        // 🌟 CONTROL DE VISIBILIDAD DE REVISIÓN PARA USUARIO LOGUEADO
+        if (txtEscribirResenaLink != null) {
+            if (isLoggedIn) {
+                txtEscribirResenaLink.setVisibility(View.VISIBLE); // Visible si inició sesión
+            } else {
+                txtEscribirResenaLink.setVisibility(View.GONE);    // Invisible si es invitado
+            }
+        }
+
+        // 🌟 CONSULTAR CALIFICACIONES UTILIZANDO TU CLIENTE RETROFIT DE RESEÑAS
+        RetrofitClient.getResenasApiService().obtenerReseniasPorPuntoId(punto.getId()).enqueue(new retrofit2.Callback<Resenia.ReseniasPuntoResponseDto>() {
+            @Override
+            public void onResponse(retrofit2.Call<Resenia.ReseniasPuntoResponseDto> call, retrofit2.Response<Resenia.ReseniasPuntoResponseDto> response) {
+                if (response.isSuccessful() && response.body() != null && response.body().getResenias() != null) {
+                    List<Resenia.ReseniaResponseDto> resenias = response.body().getResenias();
+                    if (!resenias.isEmpty()) {
+                        double suma = 0;
+                        for (Resenia.ReseniaResponseDto r : resenias) {
+                            if (r.getPuntaje() != null) suma += r.getPuntaje();
+                        }
+                        double promedio = suma / resenias.size();
+                        String promedioFormateado = String.format(Locale.US, "%.1f", promedio);
+                        if (txtResumenCalificacion != null) {
+                            txtResumenCalificacion.setText("⭐ " + promedioFormateado + " (" + resenias.size() + " opiniones)");
+                        }
+                    } else {
+                        if (txtResumenCalificacion != null) txtResumenCalificacion.setText("⭐ Sin calificaciones");
+                    }
+                } else {
+                    if (txtResumenCalificacion != null) txtResumenCalificacion.setText("⭐ Sin calificaciones");
+                }
+            }
+
+            @Override
+            public void onFailure(retrofit2.Call<Resenia.ReseniasPuntoResponseDto> call, Throwable t) {
+                if (txtResumenCalificacion != null) txtResumenCalificacion.setText("⭐ Error al cargar");
+            }
+        });
+
         containerImagenesPunto.removeAllViews();
         if (punto.getImagenes() != null && !punto.getImagenes().isEmpty()) {
             scrollDetalleImagenes.setVisibility(View.VISIBLE);
@@ -429,7 +538,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             scrollDetalleImagenes.setVisibility(View.GONE);
         }
 
-        // 3. Descripción
         if (punto.getDescripcion() != null && !punto.getDescripcion().trim().isEmpty()) {
             txtDetalleDescripcion.setText(punto.getDescripcion());
             layoutDetalleDescripcion.setVisibility(View.VISIBLE);
@@ -437,7 +545,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             layoutDetalleDescripcion.setVisibility(View.GONE);
         }
 
-        // 4. Horario
         if (punto.getHorario() != null && !punto.getHorario().trim().isEmpty()) {
             txtDetalleHorario.setText(punto.getHorario());
             layoutDetalleHorario.setVisibility(View.VISIBLE);
@@ -445,7 +552,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             layoutDetalleHorario.setVisibility(View.GONE);
         }
 
-        // 5. Teléfono
         if (punto.getTelefono() != null && !punto.getTelefono().trim().isEmpty()) {
             txtDetalleTelefono.setText(punto.getTelefono());
             layoutDetalleTelefono.setVisibility(View.VISIBLE);
@@ -453,7 +559,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             layoutDetalleTelefono.setVisibility(View.GONE);
         }
 
-        // 6. WhatsApp
         if (punto.getWhatsapp() != null && !punto.getWhatsapp().trim().isEmpty()) {
             layoutDetalleWhatsapp.setVisibility(View.VISIBLE);
             layoutDetalleWhatsapp.setOnClickListener(v -> abrirEnlaceExterno("https://api.whatsapp.com/send?phone=" + punto.getWhatsapp()));
@@ -461,7 +566,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             layoutDetalleWhatsapp.setVisibility(View.GONE);
         }
 
-        // 7. Materiales
         if (punto.getMateriales() != null && !punto.getMateriales().isEmpty()) {
             String lista = android.text.TextUtils.join(", ", punto.getMateriales());
             txtDetalleMateriales.setText(lista);
@@ -470,7 +574,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             layoutDetalleMateriales.setVisibility(View.GONE);
         }
 
-        // 8. Redes Sociales
         containerRedesSociales.removeAllViews();
         boolean tieneRedes = false;
         if (punto.getRedes() != null && !punto.getRedes().isEmpty()) {
@@ -486,7 +589,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         bottomSheetBehavior.setState(BottomSheetBehavior.STATE_EXPANDED);
     }
 
-    // Método auxiliar para inflar textos clickeables de redes sociales
     private void agregarLinkRedSocial(String etiqueta, final String url) {
         TextView tvLink = new TextView(this);
         LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
@@ -504,7 +606,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         containerRedesSociales.addView(tvLink);
     }
 
-    // Diálogo flotante nativo para ver la foto en grande (Zoom)
     private void abrirImagenPantallaCompleta(Bitmap bitmap) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this, android.R.style.Theme_Black_NoTitleBar_Fullscreen);
         ImageView imageViewGrande = new ImageView(this);
@@ -513,12 +614,10 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         builder.setView(imageViewGrande);
 
         AlertDialog dialog = builder.create();
-        // Al tocar la pantalla completa, se cierra la vista grande de inmediato
         imageViewGrande.setOnClickListener(v -> dialog.dismiss());
         dialog.show();
     }
 
-    // Intent seguro para redirigir al navegador nativo o aplicación correspondiente
     private void abrirEnlaceExterno(String url) {
         if (url == null || url.trim().isEmpty()) return;
         try {
@@ -532,7 +631,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         }
     }
 
-    // Conversor de unidades DP a píxeles para el diseño programático
     private int dpToPx(int dp) {
         float density = getResources().getDisplayMetrics().density;
         return Math.round((float) dp * density);
@@ -542,33 +640,25 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
     private void cargarPuntosEsterilizacion() { cargarPuntosPorTipo("Esterilización"); }
     private void cargarPuntosAceite() { cargarPuntosPorTipo("Punto de Aceite"); }
 
-    // Método auxiliar para crear el marcador con el nombre flotante
-
-
     private Marker agregarMarcadorConTexto(Punto.PuntoResponseDto punto) {
         if (mMap == null) return null;
 
-        // Marcador verde estándar
         Marker m = mMap.addMarker(new MarkerOptions()
                 .position(new LatLng(punto.getLat(), punto.getLng()))
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
 
-        // Etiqueta de texto fija (GroundOverlay)
-        // Esto coloca el nombre como una imagen fija sobre el mapa
-        // Requiere crear un Bitmap con el texto (lo que hace el IconGenerator)
         IconGenerator labelGen = new IconGenerator(this);
-        labelGen.setBackground(null); // Sin fondo para la etiqueta
+        labelGen.setBackground(null);
         labelGen.setTextAppearance(R.style.EstiloTextoEtiqueta);
         Bitmap labelBitmap = labelGen.makeIcon(punto.getNombre());
 
         mMap.addGroundOverlay(new GroundOverlayOptions()
                 .image(BitmapDescriptorFactory.fromBitmap(labelBitmap))
-                .position(new LatLng(punto.getLat(), punto.getLng()), 200f, 100f)); // Tamaño del texto
+                .position(new LatLng(punto.getLat(), punto.getLng()), 200f, 100f));
 
         if (m != null) m.setTag(punto);
         return m;
     }
-
 
     private void cargarPuntosPorTipo(String tipoBackend) {
         if (mMap == null || puntoApiService == null) return;
@@ -582,11 +672,8 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                     for (Punto.PuntoResponseDto punto : puntos) {
                         try {
                             if (punto == null || mMap == null) continue;
-
-                            // Usamos el nuevo método en lugar de MarkerOptions directo
                             Marker m = agregarMarcadorConTexto(punto);
                             if (m != null) m.setTag(punto);
-
                         } catch (Exception e) {
                             Log.e(TAG, "Error procesando marcador", e);
                         }
@@ -610,7 +697,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                 if (response.isSuccessful() && response.body() != null) {
                     listaPuntosTotales = response.body();
 
-                    // Actualizar buscador
                     List<String> nombres = new java.util.ArrayList<>();
                     for (Punto.PuntoResponseDto p : listaPuntosTotales) {
                         nombres.add(p.getNombre());
@@ -618,7 +704,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                     adapterBuscador = new ArrayAdapter<>(MapActivity.this, android.R.layout.simple_dropdown_item_1line, nombres);
                     buscadorMisPuntos.setAdapter(adapterBuscador);
 
-                    // Dibujar marcadores usando el nuevo método
                     for (Punto.PuntoResponseDto punto : listaPuntosTotales) {
                         Marker m = agregarMarcadorConTexto(punto);
                         if (m != null) m.setTag(punto);

@@ -94,6 +94,15 @@
             android:name="com.example.recetario.EncuestaPuntoActivity"
             android:exported="false" />
         <activity
+            android:name="com.example.recetario.DetallePuntoPropioActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.recetario.EditarPuntoLimpioActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.recetario.ResenasPuntoActivity"
+            android:exported="false" />
+        <activity
             android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
             android:exported="false"
             android:label="@string/places_autocomplete_label"

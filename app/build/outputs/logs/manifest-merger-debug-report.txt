@@ -1,541 +1,559 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:27:9-35:20
+INJECTED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:27:9-35:20
 	android:grantUriPermissions
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:31:13-47
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:31:13-47
 	android:authorities
-		INJECTED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:29:13-64
+		INJECTED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:29:13-64
 	android:exported
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:30:13-37
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:28:13-62
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:28:13-62
 manifest
-ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:2:1-54:12
-MERGED from [com.google.android.material:material:1.10.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\b1438fb81df53b9e8402a30360a96e80\workspace\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ea926c7773c6df18c4fa70f9931c23df\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:2:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\2343f35da61d80d915dff116b658ee46\workspace\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ca1822a175b3df2bb46cf05e9cc25733\workspace\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:2:1-13:12
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:17:1-44:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\04d98a67c86443bb7c20db140448e752\workspace\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\49fe6ccf061fc867b61f5784a4795405\workspace\transformed\play-services-location-21.0.1\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:16:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\59f9f3de21ed4ffd6a3c2bc52ec010db\workspace\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:16:1-26:12
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Dell\.gradle\caches\9.2.1\transforms\2d978bd89ad5b8a89d082675a3a2f097\workspace\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.12.4] C:\Users\Dell\.gradle\caches\9.2.1\transforms\65a0023d7c7bdf9ae8982d126c899c57\workspace\transformed\activity-1.12.4\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\82b4a347d6545801dc5041b2679fa206\workspace\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\c83521697f68681963e0313d7b85f0ff\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\670169cd3d0b05c9e2de4968c744a1b0\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\85287f27864f57cf97bc0c059dab4c17\workspace\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\feff580f20665018f7ec48c6092f8db3\workspace\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a45c8a915b4819f9a2971d3d32b01312\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\d6fad912685d1b4a0eb7372532a62613\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\25bb3c2b03967ebeb3a728e7fdbe92ad\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\0df88175a00be725347b625ebdff01d3\workspace\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a6ca314020742369221940ae25af13c3\workspace\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\7c5b96caae3d8b2880f8aafd45e12f69\workspace\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\621f3db7baf3cd200339baf269b3ce1f\workspace\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\985280633fe96d72c752ab44c5b1f7c9\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\007be1795996ca2a5921727d42a626ae\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9b584f18554ce9136e87e403accf7991\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\5c35360c7f20a2a37825bc99f7383832\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\8ab9d6561948bcabd4d0bdf13d1daa43\workspace\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\34b6441e34155acc705a3ce83e95c609\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\526a9fff06350861a1c18863c29b9a6b\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\aedb66e771c6508181f36341b8ade73a\workspace\transformed\core-ktx-1.16.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigationevent:navigationevent-android:1.0.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\7b6deda4e0baccbf819d8acab8480014\workspace\transformed\navigationevent\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\deacf0b82249e273ad78dec4cdb05b66\workspace\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\0569e912b3c6fc72f80f60d444f3a68d\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\30bc0c50685d2fb10ba4cd58b5a6e696\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\29cf328880083124020da31beec93e3a\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\7dc29bc4e9b26dbd258781df841ce1ab\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:15:1-35:12
-MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:15:1-39:12
-MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\5b859e1dda6d869aaed515d088f1a39c\workspace\transformed\transport-api-3.1.0\AndroidManifest.xml:15:1-20:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\4929c82f682e912db284707291658241\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
-MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\af72d783639e1b2c810a4cffb5921ca6\workspace\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\69a5d355c2a969e35878bd87498bdf59\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\64de0c81ca18941432e5a5ba4c24bac9\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\4943ec89f89a6bca698fa3865210b731\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9dbf04d197a870d0501e2b4238ebfa80\workspace\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\1cfe4399d226a6bdcbbd2e3a833d5611\workspace\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\7bee89bff2d71d33ab309dcf8390c9c2\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\27a97a169b1c7191c5fc765938a38aef\workspace\transformed\runtime-annotation\AndroidManifest.xml:2:1-7:12
-MERGED from [com.android.volley:volley:1.2.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\43eefabc6ceebbb98489e370a1eba875\workspace\transformed\volley-1.2.1\AndroidManifest.xml:2:1-7:12
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:2:1-59:12
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\b1438fb81df53b9e8402a30360a96e80\workspace\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ea926c7773c6df18c4fa70f9931c23df\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.libraries.places:places:3.5.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\2343f35da61d80d915dff116b658ee46\workspace\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ca1822a175b3df2bb46cf05e9cc25733\workspace\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:17:1-44:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\04d98a67c86443bb7c20db140448e752\workspace\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\49fe6ccf061fc867b61f5784a4795405\workspace\transformed\play-services-location-21.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\59f9f3de21ed4ffd6a3c2bc52ec010db\workspace\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\2d978bd89ad5b8a89d082675a3a2f097\workspace\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.12.4] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\65a0023d7c7bdf9ae8982d126c899c57\workspace\transformed\activity-1.12.4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\82b4a347d6545801dc5041b2679fa206\workspace\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\c83521697f68681963e0313d7b85f0ff\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\670169cd3d0b05c9e2de4968c744a1b0\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\85287f27864f57cf97bc0c059dab4c17\workspace\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\feff580f20665018f7ec48c6092f8db3\workspace\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a45c8a915b4819f9a2971d3d32b01312\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\d6fad912685d1b4a0eb7372532a62613\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\25bb3c2b03967ebeb3a728e7fdbe92ad\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\0df88175a00be725347b625ebdff01d3\workspace\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a6ca314020742369221940ae25af13c3\workspace\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\7c5b96caae3d8b2880f8aafd45e12f69\workspace\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\621f3db7baf3cd200339baf269b3ce1f\workspace\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.16.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\985280633fe96d72c752ab44c5b1f7c9\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\007be1795996ca2a5921727d42a626ae\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\9b584f18554ce9136e87e403accf7991\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\5c35360c7f20a2a37825bc99f7383832\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\8ab9d6561948bcabd4d0bdf13d1daa43\workspace\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\34b6441e34155acc705a3ce83e95c609\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\526a9fff06350861a1c18863c29b9a6b\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\aedb66e771c6508181f36341b8ade73a\workspace\transformed\core-ktx-1.16.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\7b6deda4e0baccbf819d8acab8480014\workspace\transformed\navigationevent\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\deacf0b82249e273ad78dec4cdb05b66\workspace\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\0569e912b3c6fc72f80f60d444f3a68d\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\30bc0c50685d2fb10ba4cd58b5a6e696\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\29cf328880083124020da31beec93e3a\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\7dc29bc4e9b26dbd258781df841ce1ab\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:15:1-35:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\5b859e1dda6d869aaed515d088f1a39c\workspace\transformed\transport-api-3.1.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\4929c82f682e912db284707291658241\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\af72d783639e1b2c810a4cffb5921ca6\workspace\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\69a5d355c2a969e35878bd87498bdf59\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\64de0c81ca18941432e5a5ba4c24bac9\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\4943ec89f89a6bca698fa3865210b731\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\9dbf04d197a870d0501e2b4238ebfa80\workspace\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\1cfe4399d226a6bdcbbd2e3a833d5611\workspace\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\7bee89bff2d71d33ab309dcf8390c9c2\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\27a97a169b1c7191c5fc765938a38aef\workspace\transformed\runtime-annotation\AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\43eefabc6ceebbb98489e370a1eba875\workspace\transformed\volley-1.2.1\AndroidManifest.xml:2:1-7:12
 	package
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:3:5-36
-		INJECTED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:5:5-67
-MERGED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:12:5-67
-MERGED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:12:5-67
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:23:5-67
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.libraries.places:places:3.5.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.libraries.places:places:3.5.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:6:5-79
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:20:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:20:5-79
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:20:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:20:5-79
 	android:name
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:6:22-76
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:8:5-65
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:8:5-65
 	android:name
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:8:22-62
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:8:22-62
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:9:5-107
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:9:5-107
 	android:maxSdkVersion
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:9:78-104
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:9:78-104
 	android:name
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:9:22-77
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:9:22-77
 uses-permission#android.permission.READ_MEDIA_IMAGES
-ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:10:5-76
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:10:5-76
 	android:name
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:10:22-73
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:10:22-73
 application
-ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:12:5-53:19
-INJECTED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:12:5-53:19
-MERGED from [com.google.android.material:material:1.10.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\b1438fb81df53b9e8402a30360a96e80\workspace\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.10.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\b1438fb81df53b9e8402a30360a96e80\workspace\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ea926c7773c6df18c4fa70f9931c23df\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ea926c7773c6df18c4fa70f9931c23df\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:14:5-22:19
-MERGED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:14:5-22:19
-MERGED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:7:5-11:19
-MERGED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:7:5-11:19
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
-MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\49fe6ccf061fc867b61f5784a4795405\workspace\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\49fe6ccf061fc867b61f5784a4795405\workspace\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\59f9f3de21ed4ffd6a3c2bc52ec010db\workspace\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\59f9f3de21ed4ffd6a3c2bc52ec010db\workspace\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:28:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9b584f18554ce9136e87e403accf7991\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9b584f18554ce9136e87e403accf7991\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\30bc0c50685d2fb10ba4cd58b5a6e696\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\30bc0c50685d2fb10ba4cd58b5a6e696\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:25:5-33:19
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:25:5-33:19
-MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:23:5-37:19
-MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:23:5-37:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\4929c82f682e912db284707291658241\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\4929c82f682e912db284707291658241\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:12:5-58:19
+INJECTED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:12:5-58:19
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\b1438fb81df53b9e8402a30360a96e80\workspace\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\b1438fb81df53b9e8402a30360a96e80\workspace\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ea926c7773c6df18c4fa70f9931c23df\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ea926c7773c6df18c4fa70f9931c23df\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.libraries.places:places:3.5.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.android.libraries.places:places:3.5.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\49fe6ccf061fc867b61f5784a4795405\workspace\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\49fe6ccf061fc867b61f5784a4795405\workspace\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\59f9f3de21ed4ffd6a3c2bc52ec010db\workspace\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\59f9f3de21ed4ffd6a3c2bc52ec010db\workspace\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.16.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.16.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\9b584f18554ce9136e87e403accf7991\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\9b584f18554ce9136e87e403accf7991\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\30bc0c50685d2fb10ba4cd58b5a6e696\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\30bc0c50685d2fb10ba4cd58b5a6e696\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:25:5-33:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:25:5-33:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:23:5-37:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:23:5-37:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\4929c82f682e912db284707291658241\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\4929c82f682e912db284707291658241\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.16.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:17:9-41
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:17:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:15:9-54
 	android:roundIcon
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:18:9-54
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:18:9-54
 	android:icon
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:16:9-43
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:20:9-47
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:20:9-47
 	android:dataExtractionRules
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:14:9-65
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:14:9-65
 	android:usesCleartextTraffic
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:21:9-44
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:21:9-44
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:23:9-25:71
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:23:9-25:71
 	android:value
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:25:13-68
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:25:13-68
 	android:name
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:24:13-58
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:24:13-58
 activity#com.example.recetario.splashScreem
-ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:37:9-44:20
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:37:9-44:20
 	android:exported
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:39:13-36
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:39:13-36
 	android:name
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:38:13-41
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:38:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:40:13-43:29
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:40:13-43:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:41:17-69
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:41:17-69
 	android:name
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:41:25-66
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:41:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:42:17-77
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:42:17-77
 	android:name
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:42:27-74
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:42:27-74
 activity#com.example.recetario.Menu
-ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:46:9-67
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:46:9-67
 	android:exported
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:46:40-64
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:46:40-64
 	android:name
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:46:19-39
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:46:19-39
 activity#com.example.recetario.MapActivity
-ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:47:9-74
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:47:9-74
 	android:exported
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:47:47-71
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:47:47-71
 	android:name
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:47:19-46
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:47:19-46
 activity#com.example.recetario.MainActivity
-ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:48:9-74
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:48:9-74
 	android:exported
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:48:48-71
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:48:48-71
 	android:name
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:48:19-47
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:48:19-47
 activity#com.example.recetario.LoginActivity
-ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:49:9-75
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:49:9-75
 	android:exported
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:49:49-73
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:49:49-73
 	android:name
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:49:19-48
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:49:19-48
 activity#com.example.recetario.PerfilActivity
-ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:50:9-76
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:50:9-76
 	android:exported
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:50:50-74
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:50:50-74
 	android:name
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:50:19-49
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:50:19-49
 activity#com.example.recetario.RegistroActivity
-ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:51:9-78
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:51:9-78
 	android:exported
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:51:52-76
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:51:52-76
 	android:name
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:51:19-51
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:51:19-51
 activity#com.example.recetario.EncuestaPuntoActivity
-ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:52:9-84
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:52:9-84
 	android:exported
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:52:57-81
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:52:57-81
 	android:name
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:52:19-56
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:52:19-56
+activity#com.example.recetario.DetallePuntoPropioActivity
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:53:9-89
+	android:exported
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:53:62-86
+	android:name
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:53:19-61
+activity#com.example.recetario.EditarPuntoLimpioActivity
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:54:9-88
+	android:exported
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:54:61-85
+	android:name
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:54:19-60
+activity#com.example.recetario.ResenasPuntoActivity
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:55:9-57:40
+	android:exported
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:57:13-37
+	android:name
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:56:13-49
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:32:13-34:54
+ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:32:13-34:54
 	android:resource
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:34:17-51
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:34:17-51
 	android:name
-		ADDED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml:33:17-67
+		ADDED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml:33:17-67
 uses-sdk
-INJECTED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.10.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\b1438fb81df53b9e8402a30360a96e80\workspace\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.10.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\b1438fb81df53b9e8402a30360a96e80\workspace\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ea926c7773c6df18c4fa70f9931c23df\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ea926c7773c6df18c4fa70f9931c23df\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:7:5-44
-MERGED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:7:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\2343f35da61d80d915dff116b658ee46\workspace\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\2343f35da61d80d915dff116b658ee46\workspace\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ca1822a175b3df2bb46cf05e9cc25733\workspace\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ca1822a175b3df2bb46cf05e9cc25733\workspace\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\04d98a67c86443bb7c20db140448e752\workspace\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\04d98a67c86443bb7c20db140448e752\workspace\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\49fe6ccf061fc867b61f5784a4795405\workspace\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\49fe6ccf061fc867b61f5784a4795405\workspace\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\59f9f3de21ed4ffd6a3c2bc52ec010db\workspace\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\59f9f3de21ed4ffd6a3c2bc52ec010db\workspace\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Dell\.gradle\caches\9.2.1\transforms\2d978bd89ad5b8a89d082675a3a2f097\workspace\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Dell\.gradle\caches\9.2.1\transforms\2d978bd89ad5b8a89d082675a3a2f097\workspace\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.12.4] C:\Users\Dell\.gradle\caches\9.2.1\transforms\65a0023d7c7bdf9ae8982d126c899c57\workspace\transformed\activity-1.12.4\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.12.4] C:\Users\Dell\.gradle\caches\9.2.1\transforms\65a0023d7c7bdf9ae8982d126c899c57\workspace\transformed\activity-1.12.4\AndroidManifest.xml:20:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\82b4a347d6545801dc5041b2679fa206\workspace\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\82b4a347d6545801dc5041b2679fa206\workspace\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\c83521697f68681963e0313d7b85f0ff\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\c83521697f68681963e0313d7b85f0ff\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\670169cd3d0b05c9e2de4968c744a1b0\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\670169cd3d0b05c9e2de4968c744a1b0\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\85287f27864f57cf97bc0c059dab4c17\workspace\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\85287f27864f57cf97bc0c059dab4c17\workspace\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\feff580f20665018f7ec48c6092f8db3\workspace\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\feff580f20665018f7ec48c6092f8db3\workspace\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a45c8a915b4819f9a2971d3d32b01312\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a45c8a915b4819f9a2971d3d32b01312\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\d6fad912685d1b4a0eb7372532a62613\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\d6fad912685d1b4a0eb7372532a62613\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\25bb3c2b03967ebeb3a728e7fdbe92ad\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\25bb3c2b03967ebeb3a728e7fdbe92ad\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\0df88175a00be725347b625ebdff01d3\workspace\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\0df88175a00be725347b625ebdff01d3\workspace\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a6ca314020742369221940ae25af13c3\workspace\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a6ca314020742369221940ae25af13c3\workspace\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\7c5b96caae3d8b2880f8aafd45e12f69\workspace\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\7c5b96caae3d8b2880f8aafd45e12f69\workspace\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\621f3db7baf3cd200339baf269b3ce1f\workspace\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\621f3db7baf3cd200339baf269b3ce1f\workspace\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\985280633fe96d72c752ab44c5b1f7c9\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\985280633fe96d72c752ab44c5b1f7c9\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\007be1795996ca2a5921727d42a626ae\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\007be1795996ca2a5921727d42a626ae\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9b584f18554ce9136e87e403accf7991\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9b584f18554ce9136e87e403accf7991\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\5c35360c7f20a2a37825bc99f7383832\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\5c35360c7f20a2a37825bc99f7383832\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\8ab9d6561948bcabd4d0bdf13d1daa43\workspace\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\8ab9d6561948bcabd4d0bdf13d1daa43\workspace\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\34b6441e34155acc705a3ce83e95c609\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\34b6441e34155acc705a3ce83e95c609\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\526a9fff06350861a1c18863c29b9a6b\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\526a9fff06350861a1c18863c29b9a6b\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\aedb66e771c6508181f36341b8ade73a\workspace\transformed\core-ktx-1.16.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\aedb66e771c6508181f36341b8ade73a\workspace\transformed\core-ktx-1.16.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigationevent:navigationevent-android:1.0.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\7b6deda4e0baccbf819d8acab8480014\workspace\transformed\navigationevent\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigationevent:navigationevent-android:1.0.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\7b6deda4e0baccbf819d8acab8480014\workspace\transformed\navigationevent\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\deacf0b82249e273ad78dec4cdb05b66\workspace\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\deacf0b82249e273ad78dec4cdb05b66\workspace\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\0569e912b3c6fc72f80f60d444f3a68d\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\0569e912b3c6fc72f80f60d444f3a68d\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\30bc0c50685d2fb10ba4cd58b5a6e696\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\30bc0c50685d2fb10ba4cd58b5a6e696\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\29cf328880083124020da31beec93e3a\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\29cf328880083124020da31beec93e3a\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\7dc29bc4e9b26dbd258781df841ce1ab\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\7dc29bc4e9b26dbd258781df841ce1ab\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:18:5-44
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:18:5-44
-MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:18:5-44
-MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:18:5-44
-MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\5b859e1dda6d869aaed515d088f1a39c\workspace\transformed\transport-api-3.1.0\AndroidManifest.xml:18:5-44
-MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\5b859e1dda6d869aaed515d088f1a39c\workspace\transformed\transport-api-3.1.0\AndroidManifest.xml:18:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\4929c82f682e912db284707291658241\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\4929c82f682e912db284707291658241\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\af72d783639e1b2c810a4cffb5921ca6\workspace\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\af72d783639e1b2c810a4cffb5921ca6\workspace\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\69a5d355c2a969e35878bd87498bdf59\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\69a5d355c2a969e35878bd87498bdf59\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\64de0c81ca18941432e5a5ba4c24bac9\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\64de0c81ca18941432e5a5ba4c24bac9\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\4943ec89f89a6bca698fa3865210b731\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\4943ec89f89a6bca698fa3865210b731\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9dbf04d197a870d0501e2b4238ebfa80\workspace\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9dbf04d197a870d0501e2b4238ebfa80\workspace\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\1cfe4399d226a6bdcbbd2e3a833d5611\workspace\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\1cfe4399d226a6bdcbbd2e3a833d5611\workspace\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\7bee89bff2d71d33ab309dcf8390c9c2\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\7bee89bff2d71d33ab309dcf8390c9c2\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\27a97a169b1c7191c5fc765938a38aef\workspace\transformed\runtime-annotation\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\27a97a169b1c7191c5fc765938a38aef\workspace\transformed\runtime-annotation\AndroidManifest.xml:5:5-44
-MERGED from [com.android.volley:volley:1.2.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\43eefabc6ceebbb98489e370a1eba875\workspace\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
-MERGED from [com.android.volley:volley:1.2.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\43eefabc6ceebbb98489e370a1eba875\workspace\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
+INJECTED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\b1438fb81df53b9e8402a30360a96e80\workspace\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\b1438fb81df53b9e8402a30360a96e80\workspace\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ea926c7773c6df18c4fa70f9931c23df\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ea926c7773c6df18c4fa70f9931c23df\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.libraries.places:places:3.5.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:7:5-44
+MERGED from [com.google.android.libraries.places:places:3.5.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:7:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\2343f35da61d80d915dff116b658ee46\workspace\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\2343f35da61d80d915dff116b658ee46\workspace\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ca1822a175b3df2bb46cf05e9cc25733\workspace\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ca1822a175b3df2bb46cf05e9cc25733\workspace\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\04d98a67c86443bb7c20db140448e752\workspace\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\04d98a67c86443bb7c20db140448e752\workspace\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\49fe6ccf061fc867b61f5784a4795405\workspace\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\49fe6ccf061fc867b61f5784a4795405\workspace\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\59f9f3de21ed4ffd6a3c2bc52ec010db\workspace\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\59f9f3de21ed4ffd6a3c2bc52ec010db\workspace\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\2d978bd89ad5b8a89d082675a3a2f097\workspace\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\2d978bd89ad5b8a89d082675a3a2f097\workspace\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.12.4] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\65a0023d7c7bdf9ae8982d126c899c57\workspace\transformed\activity-1.12.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.12.4] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\65a0023d7c7bdf9ae8982d126c899c57\workspace\transformed\activity-1.12.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\82b4a347d6545801dc5041b2679fa206\workspace\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\82b4a347d6545801dc5041b2679fa206\workspace\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\c83521697f68681963e0313d7b85f0ff\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\c83521697f68681963e0313d7b85f0ff\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\670169cd3d0b05c9e2de4968c744a1b0\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\670169cd3d0b05c9e2de4968c744a1b0\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\85287f27864f57cf97bc0c059dab4c17\workspace\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\85287f27864f57cf97bc0c059dab4c17\workspace\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\feff580f20665018f7ec48c6092f8db3\workspace\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\feff580f20665018f7ec48c6092f8db3\workspace\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a45c8a915b4819f9a2971d3d32b01312\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a45c8a915b4819f9a2971d3d32b01312\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\d6fad912685d1b4a0eb7372532a62613\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\d6fad912685d1b4a0eb7372532a62613\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\25bb3c2b03967ebeb3a728e7fdbe92ad\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\25bb3c2b03967ebeb3a728e7fdbe92ad\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\0df88175a00be725347b625ebdff01d3\workspace\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\0df88175a00be725347b625ebdff01d3\workspace\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a6ca314020742369221940ae25af13c3\workspace\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a6ca314020742369221940ae25af13c3\workspace\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\7c5b96caae3d8b2880f8aafd45e12f69\workspace\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\7c5b96caae3d8b2880f8aafd45e12f69\workspace\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\621f3db7baf3cd200339baf269b3ce1f\workspace\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\621f3db7baf3cd200339baf269b3ce1f\workspace\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.16.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.16.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\985280633fe96d72c752ab44c5b1f7c9\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\985280633fe96d72c752ab44c5b1f7c9\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\007be1795996ca2a5921727d42a626ae\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\007be1795996ca2a5921727d42a626ae\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\9b584f18554ce9136e87e403accf7991\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\9b584f18554ce9136e87e403accf7991\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\5c35360c7f20a2a37825bc99f7383832\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\5c35360c7f20a2a37825bc99f7383832\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\8ab9d6561948bcabd4d0bdf13d1daa43\workspace\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\8ab9d6561948bcabd4d0bdf13d1daa43\workspace\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\34b6441e34155acc705a3ce83e95c609\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\34b6441e34155acc705a3ce83e95c609\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\526a9fff06350861a1c18863c29b9a6b\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\526a9fff06350861a1c18863c29b9a6b\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\aedb66e771c6508181f36341b8ade73a\workspace\transformed\core-ktx-1.16.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\aedb66e771c6508181f36341b8ade73a\workspace\transformed\core-ktx-1.16.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\7b6deda4e0baccbf819d8acab8480014\workspace\transformed\navigationevent\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\7b6deda4e0baccbf819d8acab8480014\workspace\transformed\navigationevent\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\deacf0b82249e273ad78dec4cdb05b66\workspace\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\deacf0b82249e273ad78dec4cdb05b66\workspace\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\0569e912b3c6fc72f80f60d444f3a68d\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\0569e912b3c6fc72f80f60d444f3a68d\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\30bc0c50685d2fb10ba4cd58b5a6e696\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\30bc0c50685d2fb10ba4cd58b5a6e696\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\29cf328880083124020da31beec93e3a\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\29cf328880083124020da31beec93e3a\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\7dc29bc4e9b26dbd258781df841ce1ab\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\7dc29bc4e9b26dbd258781df841ce1ab\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\5b859e1dda6d869aaed515d088f1a39c\workspace\transformed\transport-api-3.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\5b859e1dda6d869aaed515d088f1a39c\workspace\transformed\transport-api-3.1.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\4929c82f682e912db284707291658241\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\4929c82f682e912db284707291658241\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\af72d783639e1b2c810a4cffb5921ca6\workspace\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\af72d783639e1b2c810a4cffb5921ca6\workspace\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\69a5d355c2a969e35878bd87498bdf59\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\69a5d355c2a969e35878bd87498bdf59\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\64de0c81ca18941432e5a5ba4c24bac9\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\64de0c81ca18941432e5a5ba4c24bac9\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\4943ec89f89a6bca698fa3865210b731\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\4943ec89f89a6bca698fa3865210b731\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\9dbf04d197a870d0501e2b4238ebfa80\workspace\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\9dbf04d197a870d0501e2b4238ebfa80\workspace\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\1cfe4399d226a6bdcbbd2e3a833d5611\workspace\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\1cfe4399d226a6bdcbbd2e3a833d5611\workspace\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\7bee89bff2d71d33ab309dcf8390c9c2\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\7bee89bff2d71d33ab309dcf8390c9c2\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\27a97a169b1c7191c5fc765938a38aef\workspace\transformed\runtime-annotation\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\27a97a169b1c7191c5fc765938a38aef\workspace\transformed\runtime-annotation\AndroidManifest.xml:5:5-44
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\43eefabc6ceebbb98489e370a1eba875\workspace\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\43eefabc6ceebbb98489e370a1eba875\workspace\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
 	android:targetSdkVersion
-		INJECTED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Dell\AndroidStudioProjects\recetario\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\LENOVO IDEAPAD 3\Desktop\movil\recetario\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:9:5-81
+ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:9:22-78
+		ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:9:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:10:5-79
+ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:10:5-79
 	android:name
-		ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:10:22-76
+		ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:10:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:11:5-76
+ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:11:5-76
 	android:name
-		ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:11:22-73
+		ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:11:22-73
 activity#com.google.android.libraries.places.widget.AutocompleteActivity
-ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:15:9-21:20
+ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:15:9-21:20
 	android:label
-		ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:18:13-62
+		ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:18:13-62
 	android:windowSoftInputMode
-		ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:20:13-55
+		ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:20:13-55
 	android:exported
-		ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:17:13-37
+		ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:17:13-37
 	android:theme
-		ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:19:13-61
+		ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:19:13-61
 	android:name
-		ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:16:13-91
+		ADDED from [com.google.android.libraries.places:places:3.5.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\44de4a880dbaa38e008610236c5d4974\workspace\transformed\places-3.5.0\AndroidManifest.xml:16:13-91
 meta-data#com.google.android.gms.version
-ADDED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:8:9-10:69
-MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+ADDED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a4485f4563b8ad90d04f6a4e80b36206\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:10:13-66
+		ADDED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:10:13-66
 	android:name
-		ADDED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:9:13-58
+		ADDED from [com.google.maps.android:android-maps-utils:3.8.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\9bc1832b623d32129c819008700febf1\workspace\transformed\android-maps-utils-3.8.0\AndroidManifest.xml:9:13-58
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
 queries
-ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
 package#com.google.android.apps.maps
-ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
 uses-library#org.apache.http.legacy
-ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\32c2cf7f3232f3c42c68f359596c0aff\workspace\transformed\play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\a2a92569a071f81bac3eaf4dafaceef1\workspace\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:19-85
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9b584f18554ce9136e87e403accf7991\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9b584f18554ce9136e87e403accf7991\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\4929c82f682e912db284707291658241\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Dell\.gradle\caches\9.2.1\transforms\4929c82f682e912db284707291658241\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\9b584f18554ce9136e87e403accf7991\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\9b584f18554ce9136e87e403accf7991\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\4929c82f682e912db284707291658241\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\4929c82f682e912db284707291658241\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\d5305e67fcdc2da0a7a41921666a3d08\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.16.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.16.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.16.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
 permission#com.example.recetario.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.16.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.16.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.16.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.16.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.16.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
 uses-permission#com.example.recetario.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.16.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.16.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\93e524dc39efe45e4035b34aca0af72a\workspace\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9b584f18554ce9136e87e403accf7991\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\9b584f18554ce9136e87e403accf7991\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9b584f18554ce9136e87e403accf7991\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\9b584f18554ce9136e87e403accf7991\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dell\.gradle\caches\9.2.1\transforms\9b584f18554ce9136e87e403accf7991\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\9b584f18554ce9136e87e403accf7991\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
 receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
 	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
 	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\f4e8809b00020123c767a62783d2b08b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
 service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
-ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:26:9-32:19
-MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:34:9-36:40
-MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:34:9-36:40
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:26:9-32:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:34:9-36:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:34:9-36:40
 	android:exported
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:28:13-37
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:27:13-103
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:27:13-103
 meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
-ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:29:13-31:39
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:29:13-31:39
 	android:value
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:31:17-36
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:31:17-36
 	android:name
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:30:17-94
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\718e3f271673f5529ea983c812b895d5\workspace\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:30:17-94
 service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
-ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:24:9-28:19
+ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:24:9-28:19
 	android:exported
-		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:26:13-37
+		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:26:13-37
 	android:permission
-		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:27:13-69
+		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:27:13-69
 	android:name
-		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:25:13-117
+		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:25:13-117
 receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
-ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:30:9-32:40
+ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:30:9-32:40
 	android:exported
-		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:32:13-37
+		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\Dell\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:31:13-132
+		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\LENOVO IDEAPAD 3\.gradle\caches\9.2.1\transforms\ee796e3f38ff9a7fbaaf63c500a9d3a0\workspace\transformed\transport-runtime-3.2.0\AndroidManifest.xml:31:13-132

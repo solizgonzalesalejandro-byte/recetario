@@ -4,7 +4,7 @@
             "outputFile": "com.example.recetario.app-mergeDebugResources-36:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\9.2.1\\transforms\\ca1822a175b3df2bb46cf05e9cc25733\\workspace\\transformed\\appcompat-1.6.1\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\LENOVO IDEAPAD 3\\.gradle\\caches\\9.2.1\\transforms\\ca1822a175b3df2bb46cf05e9cc25733\\workspace\\transformed\\appcompat-1.6.1\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

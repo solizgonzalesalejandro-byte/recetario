@@ -4,7 +4,7 @@
             "outputFile": "com.example.recetario.app-mergeDebugResources-36:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\9.2.1\\transforms\\ca1822a175b3df2bb46cf05e9cc25733\\workspace\\transformed\\appcompat-1.6.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "C:\\Users\\LENOVO IDEAPAD 3\\.gradle\\caches\\9.2.1\\transforms\\ca1822a175b3df2bb46cf05e9cc25733\\workspace\\transformed\\appcompat-1.6.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

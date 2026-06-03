@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FA"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/btnAtrasDetalle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:src="@android:drawable/ic_menu_revert"
+                app:tint="#636E72"
+                android:padding="4dp"
+                android:scaleType="centerInside"
+                android:contentDescription="Atrás" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Detalle de Tu Aporte Eco"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#2D3436"
+                android:layout_marginStart="12dp" />
+        </LinearLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Identidad del Punto"
+                    android:textSize="14sp"
+                    android:textColor="#636E72"
+                    android:textStyle="normal"
+                    android:layout_marginBottom="6dp"/>
+
+                <TextView
+                    android:id="@+id/detalleNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre del Punto (22sp)"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="#2D3436" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/grupoChipsTipos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="4dp"/>
+
+                <TextView
+                    android:id="@+id/detalleDescripcion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Descripción del punto rorocontendo cooo ta italic, 14sp"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    android:textColor="#636E72"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ubicación y Contacto"
+                    android:textSize="14sp"
+                    android:textColor="#636E72"
+                    android:layout_marginBottom="12dp"/>
+
+                <LinearLayout
+                    android:id="@+id/filaDireccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="10dp">
+                    <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@android:drawable/ic_menu_mylocation" app:tint="#84B026"/>
+                    <TextView android:id="@+id/detalleDireccion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Dirección: Ravvera de Sinclura a Giénni..." android:textSize="15sp" android:textColor="#2D3436" android:layout_marginStart="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/filaCoordenadas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="10dp">
+                    <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@android:drawable/ic_menu_compass" app:tint="#84B026"/>
+                    <TextView android:id="@+id/detalleCoordenadas" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Coordenadas:\ncoordenadas" android:textSize="15sp" android:textColor="#2D3436" android:layout_marginStart="10dp"/>
+                    <Button android:id="@+id/btnAbrirMaps" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="wrap_content" android:layout_height="40dp" android:text="Abrir en Maps" android:textColor="#84B026" app:strokeColor="#84B026" app:cornerRadius="20dp" android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/filaHorario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="10dp">
+                    <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@android:drawable/ic_menu_recent_history" app:tint="#84B026"/>
+                    <TextView android:id="@+id/detalleHorario" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Horario: 19:00 a 22:00 hrs." android:textSize="15sp" android:textColor="#2D3436" android:layout_marginStart="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/filaTelefono"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="12dp">
+                    <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@android:drawable/ic_menu_call" app:tint="#84B026"/>
+                    <TextView android:id="@+id/detalleTelefono" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Teléfono: (812) 434-5830" android:textSize="15sp" android:textColor="#2D3436" android:layout_marginStart="10dp"/>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnAbrirWhatsapp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="WhatsApp"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:backgroundTint="#25D366"
+                    app:cornerRadius="12dp"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aceptación de Materiales"
+                    android:textSize="14sp"
+                    android:textColor="#636E72"
+                    android:layout_marginBottom="10dp"/>
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/grupoChipsMateriales"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardRedes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nuestras Redes"
+                    android:textSize="14sp"
+                    android:textColor="#636E72"
+                    android:layout_marginBottom="12dp"/>
+
+                <LinearLayout android:id="@+id/contenedorRedes" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardRecompensas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recompensas Disponibles"
+                    android:textSize="14sp"
+                    android:textColor="#636E72"
+                    android:layout_marginBottom="12dp"/>
+
+                <LinearLayout android:id="@+id/contenedorRecompensas" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardGaleria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Galería de Fotos"
+                    android:textSize="14sp"
+                    android:textColor="#636E72"
+                    android:layout_marginBottom="12dp"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvGaleriaFotos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false"
+                    android:scrollbars="horizontal"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp">
+
+            <Button
+                android:id="@+id/btnEliminarPunto"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:text="ELIMINAR"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:backgroundTint="#D63031"
+                app:cornerRadius="12dp" />
+
+            <Button
+                android:id="@+id/btnEditarPunto"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="EDITAR PUNTO"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:backgroundTint="#2D3436"
+                app:cornerRadius="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

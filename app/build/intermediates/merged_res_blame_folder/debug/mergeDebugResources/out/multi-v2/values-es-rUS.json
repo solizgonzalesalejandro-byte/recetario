@@ -4,24 +4,24 @@
             "outputFile": "com.example.recetario.app-mergeDebugResources-36:/values-es-rUS/values-es-rUS.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\9.2.1\\transforms\\a2a92569a071f81bac3eaf4dafaceef1\\workspace\\transformed\\play-services-base-18.3.0\\res\\values-es-rUS\\values.xml",
+                    "source": "C:\\Users\\LENOVO IDEAPAD 3\\.gradle\\caches\\9.2.1\\transforms\\44de4a880dbaa38e008610236c5d4974\\workspace\\transformed\\places-3.5.0\\res\\values-es-rUS\\values.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "197,301,463,591,695,852,979,1098,1200,1367,1472,1638,1767,1940,2114,2180,2238",
-                        "endColumns": "103,161,127,103,156,126,118,101,166,104,165,128,172,173,65,57,73",
-                        "endOffsets": "300,462,590,694,851,978,1097,1199,1366,1471,1637,1766,1939,2113,2179,2237,2311"
+                        "startLines": "4,5,6,7,8,9,10,11",
+                        "startColumns": "0,0,0,0,0,0,0,0",
+                        "startOffsets": "188,261,326,430,502,549,626,721",
+                        "endColumns": "72,64,103,71,46,76,94,51",
+                        "endOffsets": "260,325,429,501,548,625,720,772"
                     },
                     "to": {
-                        "startLines": "48,49,50,51,52,53,54,55,57,58,59,60,61,62,63,64,65",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4536,4644,4810,4942,5050,5211,5342,5465,5717,5888,5997,6167,6300,6477,6655,6725,6787",
-                        "endColumns": "107,165,131,107,160,130,122,105,170,108,169,132,176,177,69,61,77",
-                        "endOffsets": "4639,4805,4937,5045,5206,5337,5460,5566,5883,5992,6162,6295,6472,6650,6720,6782,6860"
+                        "startLines": "126,127,128,129,130,131,132,133",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "11750,11827,11896,12004,12080,12131,12212,12311",
+                        "endColumns": "76,68,107,75,50,80,98,55",
+                        "endOffsets": "11822,11891,11999,12075,12126,12207,12306,12362"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\9.2.1\\transforms\\a4485f4563b8ad90d04f6a4e80b36206\\workspace\\transformed\\play-services-basement-18.3.0\\res\\values-es-rUS\\values.xml",
+                    "source": "C:\\Users\\LENOVO IDEAPAD 3\\.gradle\\caches\\9.2.1\\transforms\\a4485f4563b8ad90d04f6a4e80b36206\\workspace\\transformed\\play-services-basement-18.3.0\\res\\values-es-rUS\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,7 +38,41 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\9.2.1\\transforms\\b1438fb81df53b9e8402a30360a96e80\\workspace\\transformed\\material-1.10.0\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "source": "C:\\Users\\LENOVO IDEAPAD 3\\.gradle\\caches\\9.2.1\\transforms\\93e524dc39efe45e4035b34aca0af72a\\workspace\\transformed\\core-1.16.0\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,256,356,454,561,667,787",
+                        "endColumns": "98,101,99,97,106,105,119,100",
+                        "endOffsets": "149,251,351,449,556,662,782,883"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44,135",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3493,3592,3694,3794,3892,3999,4105,12450",
+                        "endColumns": "98,101,99,97,106,105,119,100",
+                        "endOffsets": "3587,3689,3789,3887,3994,4100,4220,12546"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\LENOVO IDEAPAD 3\\.gradle\\caches\\9.2.1\\transforms\\a2a92569a071f81bac3eaf4dafaceef1\\workspace\\transformed\\play-services-base-18.3.0\\res\\values-es-rUS\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "197,301,463,591,695,852,979,1098,1200,1367,1472,1638,1767,1940,2114,2180,2238",
+                        "endColumns": "103,161,127,103,156,126,118,101,166,104,165,128,172,173,65,57,73",
+                        "endOffsets": "300,462,590,694,851,978,1097,1199,1366,1471,1637,1766,1939,2113,2179,2237,2311"
+                    },
+                    "to": {
+                        "startLines": "48,49,50,51,52,53,54,55,57,58,59,60,61,62,63,64,65",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4536,4644,4810,4942,5050,5211,5342,5465,5717,5888,5997,6167,6300,6477,6655,6725,6787",
+                        "endColumns": "107,165,131,107,160,130,122,105,170,108,169,132,176,177,69,61,77",
+                        "endOffsets": "4639,4805,4937,5045,5206,5337,5460,5566,5883,5992,6162,6295,6472,6650,6720,6782,6860"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\LENOVO IDEAPAD 3\\.gradle\\caches\\9.2.1\\transforms\\b1438fb81df53b9e8402a30360a96e80\\workspace\\transformed\\material-1.10.0\\res\\values-es-rUS\\values-es-rUS.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -57,41 +91,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\9.2.1\\transforms\\93e524dc39efe45e4035b34aca0af72a\\workspace\\transformed\\core-1.16.0\\res\\values-es-rUS\\values-es-rUS.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,154,256,356,454,561,667,787",
-                        "endColumns": "98,101,99,97,106,105,119,100",
-                        "endOffsets": "149,251,351,449,556,662,782,883"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44,135",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3493,3592,3694,3794,3892,3999,4105,12450",
-                        "endColumns": "98,101,99,97,106,105,119,100",
-                        "endOffsets": "3587,3689,3789,3887,3994,4100,4220,12546"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\9.2.1\\transforms\\44de4a880dbaa38e008610236c5d4974\\workspace\\transformed\\places-3.5.0\\res\\values-es-rUS\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11",
-                        "startColumns": "0,0,0,0,0,0,0,0",
-                        "startOffsets": "188,261,326,430,502,549,626,721",
-                        "endColumns": "72,64,103,71,46,76,94,51",
-                        "endOffsets": "260,325,429,501,548,625,720,772"
-                    },
-                    "to": {
-                        "startLines": "126,127,128,129,130,131,132,133",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "11750,11827,11896,12004,12080,12131,12212,12311",
-                        "endColumns": "76,68,107,75,50,80,98,55",
-                        "endOffsets": "11822,11891,11999,12075,12126,12207,12306,12362"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\9.2.1\\transforms\\ca1822a175b3df2bb46cf05e9cc25733\\workspace\\transformed\\appcompat-1.6.1\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "source": "C:\\Users\\LENOVO IDEAPAD 3\\.gradle\\caches\\9.2.1\\transforms\\ca1822a175b3df2bb46cf05e9cc25733\\workspace\\transformed\\appcompat-1.6.1\\res\\values-es-rUS\\values-es-rUS.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
